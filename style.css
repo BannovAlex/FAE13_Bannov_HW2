@@ -1,0 +1,105 @@
+
+h1 {
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    width: 50%;
+}
+ul {
+    width: 50%;
+}
+ul li {
+    list-style: none;
+    font-size: 14px;
+}
+li:first-child a{
+    color: lawngreen;
+}
+li:nth-child(even) a{
+    font-size: 16px;
+}
+li:nth-child(3n+1){
+    background-color: yellow;
+}
+a{
+    text-decoration: none;
+}
+li:hover a{
+    background-color: red;
+    font-size: 20px;
+    color: greenyellow;
+}
+li:before {
+    content: '-';
+    display: inline;
+    margin-right: 5px;
+}
+.block {
+    width: 100px;
+    height: 100px;
+    border: black solid 4px;
+    margin: 0 5px 5px 0;
+    display: inline-block;
+    font-size: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.block:hover {
+    background-color: yellow;
+    border-color: blue;
+    color: blue;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 40%;
+
+}
+.flex-block {
+    width: 100px;
+    height: 100px;
+    border: black solid 4px;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px;
+    font-size: 100px;
+}
+.flex-block:hover {
+    background-color: yellow;
+    border-color: blue;
+    color: blue;
+}
+.google {
+    width: 500px;
+    height: 300px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjio3hZ8kkwKn7FBB6IJh7ha65UgVkZDiYTg9GbSjygMJhYbK-ZA");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.google a:before {
+    content: "google.com";
+}
+.google a {
+    position: relative;
+    top: 270px;
+    left: 10px;
+}
+.bg-box {
+    width: 100%;
+    height: 500px;
+    background-color: #2a700a;
+    background-image: url("https://img2.goodfon.ru/wallpaper/big/0/5b/pole-zelen-trava-dom-derevya.jpg"),
+    url("https://www.freeiconspng.com/uploads/grass-png-images-pictures-transparent-28.png"),
+    url("https://avatanplus.com/files/resources/mid/58eb07b830eab15b56162788.png"),
+    url("https://www.freeiconspng.com/uploads/lamp-png-0.png"),
+    url("https://vignette.wikia.nocookie.net/mashaandthebear/images/e/e0/%D0%81%D0%B6%D0%B8%D0%BA.png/revision/latest?cb=20180209130328&path-prefix=ru");
+    background-repeat: no-repeat, repeat-x, repeat-y, repeat-x, repeat-y;
+    background-position: center, bottom, right, top, left;
+    background-size: auto, 150px, 20px, 20px, 20px;
+}
+main h2 {
+    font-size: 16px;
+    text-align: center;
+}
+
